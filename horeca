@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canal HORECA | Marley Coffee Chile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">MARLEY COFFEE <span>B2B</span></span>
+            </a>
+            <nav class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="horeca.html" class="active">HORECA</a>
+                <a href="#solucion">Solución & Propuesta</a>
+                <a href="#bundle">Bundle HORECA</a>
+                <a href="#equipamiento">Equipamiento</a>
+                <a href="#cotizar" class="btn-primary-sm">Cotizar Servicio</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-horeca">
+        <div class="overlay"></div>
+        <div class="container hero-content">
+            <span class="badge-tag">SOLUCIONES HORECA</span>
+            <h1>Café de especialidad que eleva la experiencia gastronómica de tu local.</h1>
+            <p>Experiencia de café de especialidad de origen ético con respaldo técnico experto y consistencia garantizada en cada taza.</p>
+            <div class="hero-actions">
+                <a href="#bundle" class="btn-primary">Ver Oferta Bundle HORECA</a>
+                <a href="#cotizar" class="btn-secondary">Solicitar Cotización</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diagnóstico & Propuesta de Valor -->
+    <section id="solucion" class="section-padding bg-light">
+        <div class="container">
+            <div class="grid-2 gap-lg align-center">
+                <div class="diag-card danger-border">
+                    <div class="diag-header">
+                        <i class="fa-solid fa-triangle-exclamation icon-alert"></i>
+                        <h3>El Desafío en HORECA</h3>
+                    </div>
+                    <p class="subtitle-diag"><strong>Diagnóstico de Industria:</strong></p>
+                    <p>Dependencia de baristas con alta rotación y el riesgo permanente de perder clientes si el café sale mal calibrado en horas de alto flujo.</p>
+                    <ul class="pain-list">
+                        <li><i class="fa-solid fa-circle-xmark"></i> Calidad inconsistente entre turnos de personal.</li>
+                        <li><i class="fa-solid fa-circle-xmark"></i> Cuellos de botella y demoras en la preparación.</li>
+                        <li><i class="fa-solid fa-circle-xmark"></i> Paradas no programadas por fallas en la máquina espresso.</li>
+                    </ul>
+                </div>
+
+                <div class="diag-card success-border">
+                    <div class="diag-header">
+                        <i class="fa-solid fa-circle-check icon-success"></i>
+                        <h3>La Solución Marley Coffee</h3>
+                    </div>
+                    <p class="subtitle-diag"><strong>Nuestra Propuesta de Valor:</strong></p>
+                    <p>Experiencia de café de especialidad de origen ético (Fairtrade) combinada con respaldo técnico experto para asegurar la carta de bebidas perfecta sin depender de la rotación del equipo.</p>
+                    <ul class="benefit-list">
+                        <li><i class="fa-solid fa-check"></i> <strong>Soporte a la Carta de Bebidas:</strong> Asesoría en diseño de carta y calibración de recetas.</li>
+                        <li><i class="fa-solid fa-check"></i> <strong>Historia de Marca Fairtrade:</strong> Origen ético y sustentabilidad que valoran tus clientes.</li>
+                        <li><i class="fa-solid fa-check"></i> <strong>Servicio Técnico Preventivo:</strong> Continuidad operacional sin paradas en hora punta.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Oferta / Bundle HORECA -->
+    <section id="bundle" class="section-padding bg-dark text-white">
+        <div class="container text-center">
+            <span class="badge-gold">OFERTA B2B INTEGRAL</span>
+            <h2 class="title-gold">Bundle HORECA Marley Coffee</h2>
+            <p class="lead-text">Todo lo necesario para operar un servicio de cafetería de estándar internacional en tu hotel, restaurante o cafetería.</p>
+
+            <div class="grid-3 bundle-grid">
+                <div class="bundle-item">
+                    <div class="bundle-icon">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h3>Café en Grano Premium (1kg)</h3>
+                    <p>Granos de especialidad de origen ético (Fairtrade), disponibles en variedades <strong>Blue Mountain Blend</strong> y <strong>Organic Whole Bean</strong>. Tostado perfecto para espresso.</p>
+                </div>
+
+                <div class="bundle-item featured-bundle">
+                    <div class="bundle-badge">INCLUIDO EN COMODATO</div>
+                    <div class="bundle-icon">
+                        <i class="fa-solid fa-mug-saucer"></i>
+                    </div>
+                    <h3>Máquina Espresso Profesional</h3>
+                    <p>Equipamiento de alta gama (2 y 3 grupos) en formato comodato, sin costo de adquisición inicial. Incluye molino bajo demanda y mantenimiento preventivo.</p>
+                </div>
+
+                <div class="bundle-item">
+                    <div class="bundle-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3>Capacitación Barista Digital</h3>
+                    <p>Módulos interactivos y entrenamiento remoto continuo para la inducción rápida de nuevos garzones y baristas. Calibración ágil que neutraliza la alta rotación.</p>
+                </div>
+            </div>
+
+            <div class="bundle-cta">
+                <a href="#cotizar" class="btn-primary-lg">Solicitar Oferta Bundle HORECA</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Clave del Servicio -->
+    <section id="beneficios" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Ventajas Competitivas para tu Negocio</h2>
+                <p>Estándares de calidad y respaldo operacional diseñados para la alta exigencia gastronómica.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card-feature">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <h3>Consistencia de Extracción</h3>
+                    <p>Garantizamos un perfil sensorial uniforme en cada taza, protegiendo la reputación de tu local sin importar quién esté en barra.</p>
+                </div>
+                <div class="card-feature">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3>Capacitación Continua</h3>
+                    <p>Formación constante en barra y plataforma digital para elevar el estándar de atención y acelerar los tiempos de servicio.</p>
+                </div>
+                <div class="card-feature">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3>Soporte Técnico Preventivo</h3>
+                    <p>Mantenimiento programado y respuesta prioritaria ante emergencias para evitar pérdidas de venta en horas de alto flujo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipamiento Detallado -->
+    <section id="equipamiento" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Equipamiento & Productos Destacados</h2>
+                <p>Tecnología de extracción profesional combinada con nuestros granos premium Fairtrade.</p>
+            </div>
+            <div class="grid-2 gap-lg">
+                <div class="equip-box">
+                    <div class="equip-badge">MAQUINARIA PROFESIONAL</div>
+                    <h3>Máquinas de Espresso (2 y 3 Grupos)</h3>
+                    <p>Diseñadas para resistir alto volumen de extracción manteniendo estabilidad térmica y presión óptimas.</p>
+                    <ul class="check-list">
+                        <li><i class="fa-solid fa-check"></i> Disponibles bajo modelo de comodato.</li>
+                        <li><i class="fa-solid fa-check"></i> Instalación y calibración inicial incluidas.</li>
+                        <li><i class="fa-solid fa-check"></i> Servicio técnico e insumos garantizados.</li>
+                    </ul>
+                </div>
+                <div class="equip-box">
+                    <div class="equip-badge">MOLIENDA DE PRECISIÓN</div>
+                    <h3>Molinos Bajo Demanda</h3>
+                    <p>Molienda instantánea por dosis que conserva los aceites esenciales y notas aromáticas del grano fresco.</p>
+                    <ul class="check-list">
+                        <li><i class="fa-solid fa-check"></i> Dosificación electrónica precisa.</li>
+                        <li><i class="fa-solid fa-check"></i> Minimiza el desperdicio en barra.</li>
+                        <li><i class="fa-solid fa-check"></i> Ajuste sencillo para el personal de turno.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Casos de Éxito / Logos -->
+    <section id="casos-exito" class="section-padding bg-dark text-white">
+        <div class="container text-center">
+            <h2>Casos de Éxito en Canal HORECA</h2>
+            <p class="subtitle">Presentes en hoteles boutique, cadenas de restaurantes y cafeterías de especialidad a nivel nacional.</p>
+            
+            <div class="logos-grid">
+                <div class="logo-card">
+                    <i class="fa-solid fa-hotel logo-icon"></i>
+                    <span>Hoteles Boutique</span>
+                </div>
+                <div class="logo-card">
+                    <i class="fa-solid fa-utensils logo-icon"></i>
+                    <span>Cadenas de Restaurantes</span>
+                </div>
+                <div class="logo-card">
+                    <i class="fa-solid fa-store logo-icon"></i>
+                    <span>Cafeterías de Especialidad</span>
+                </div>
+            </div>
+
+            <div class="testimonial-box">
+                <p class="quote">"Gracias a la capacitación digital y la máquina en comodato, logramos estandarizar el sabor en todos los turnos y aumentar la venta de café en nuestra carta."</p>
+                <span class="author">— Gerencia de Abastecimiento & F&B</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario / CTA Cotización -->
+    <section id="cotizar" class="section-padding bg-light">
+        <div class="container form-container">
+            <div class="text-center">
+                <h2>Solicita la Solución HORECA para tu Local</h2>
+                <p>Completa tus datos para recibir asesoría comercial y coordinar la evaluación de la máquina en comodato.</p>
+            </div>
+            <form class="b2b-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" placeholder="Ej. Fernanda Rojas" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Nombre del Establecimiento / Razón Social</label>
+                        <input type="text" id="empresa" placeholder="Ej. Hotel / Restaurante" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Correo Corporativo</label>
+                        <input type="email" id="email" placeholder="ejemplo@empresa.cl" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono de Contacto</label>
+                        <input type="tel" id="telefono" placeholder="+56 9 1234 5678" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="tipo_local">Tipo de Establecimiento</label>
+                        <select id="tipo_local" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="hotel">Hotel / Cadena Hotelera</option>
+                            <option value="restaurante">Restaurante</option>
+                            <option value="cafeteria">Cafetería de Especialidad</option>
+                            <option value="otro">Otro formato HORECA</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="locales">Número de Locales / Puntos</label>
+                        <input type="number" id="locales" min="1" placeholder="Ej. 1, 5, 20">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="interes">Interés Principal</label>
+                    <select id="interes">
+                        <option value="bundle">Bundle HORECA Completo (Café + Comodato + Capacitación)</option>
+                        <option value="maquina">Máquinas de Espresso y Molino</option>
+                        <option value="grano">Café en Grano Premium (1kg)</option>
+                        <option value="capacitacion">Soporte a Carta de Bebidas / Capacitación Barista</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Detalles Adicionales de tu Operación</label>
+                    <textarea id="mensaje" rows="4" placeholder="Cuéntanos tu consumo estimado de café o número de garzones/baristas..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-block">Solicitar Cotización & Asesoría</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Marley Coffee Chile (Comercial Dicalla S.A.) - Canal B2B & Food Service.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
